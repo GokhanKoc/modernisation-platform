@@ -419,6 +419,10 @@ updates:
     directory: "/terraform/templates/modernisation-platform-environments"
     schedule:
       interval: "daily"
+  - package-ecosystem: "terraform"
+    directory: "/terraform/templates/modernisation-platform-environments-isolated"
+    schedule:
+      interval: "daily"
   - package-ecosystem: "gomod"
     directory: "/scripts/internal/get-security-hub-findings"
     schedule:
